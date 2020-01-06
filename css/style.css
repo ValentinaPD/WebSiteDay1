@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    background: linear-gradient(to top,  #fce38a,#e78182);   
+    height: 100vh;
+}
+.nav-link{
+    color:white;
+}
+.nav-item{
+    margin-bottom: 2px;
+}
+.nav-item:hover .nav-link{
+color: #fce38a;
+transition: all 0.5s ease;
+}
+.nav-item:hover {
+    border-bottom:2px solid #fce38a;
+    transition: all 0.1s ease;
+    margin-bottom: 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    font-family: Montserrat;
+    color: white;
+    font-size: 1.7em;
+}
+.logo-text{
+    color: white;
+}
+.logo:hover .logo-text{
+    text-decoration: none;
+    color: #fce38a;
+}
+.header-content{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+}
+.header-content h2{
+    font-family: Kaushan Script;
+    color: white;
+    font-size: 4em;
+}
+.header-content h1{
+    font-size: 5em;
+    font-family: Montserrat;
+    color: white;
+}
+.header-content hr{
+   margin: auto;   
+    height: 3px;
+}
+.header-content-button{
+    border-radius: 0%;
+    width: 200px;
+    font-family: Montserrat;
+    border: 2px solid white;
+}
+.header-content-button:hover{
+    background-color: white;
+    color: black;
+    transition: all 1s ease;    
+}
+.about_us_caption{
+    text-align: center;
+    padding:0 0 10vh  0  ;
+}
+.about_us_caption h2{
+    font-family: Montserrat;
+}
+.about_us_caption h3{
+    font-family: Kaushan Script;
+}
+.about_us_caption hr{
+    margin: auto;   
+     height: 3px;
+ }
+ .about_us{
+    padding:10vh 0 10vh  0  ;
+ }
+ .facts{
+     background-color: #95e1d3;
+     padding:10vh 0 10vh  0  ;
+ }
+ .fact{
+     text-align: center;
+     font-family: Montserrat;
+     color: white;
+ }
+ .fact-number{
+    font-size: 4em;
+ }
+ .fact-text{
+font-size: 1em;
+ }
